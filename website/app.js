@@ -25,7 +25,7 @@ function getWeather(e) {
                     feeling: feeling
                 })
                 .then(() => {
-                    updateUI()
+                    updateUI();
                 });
         });
 }
